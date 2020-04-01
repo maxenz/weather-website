@@ -1,6 +1,6 @@
 const fetchLocation = address => {
   return fetch(
-    `http://localhost:3000/weather?address=${address}`
+    `/weather?address=${address}`
   ).then(response => response.json());
 };
 
